@@ -5,7 +5,7 @@ CREATE TABLE timeslots (
     end_time TIME
 );
 
--- Create the rooms table
+-- modify the rooms table
 CREATE TABLE rooms (
     id INTEGER PRIMARY KEY,
     room_number VARCHAR(10)
